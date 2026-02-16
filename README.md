@@ -15,7 +15,7 @@ Estructurar el contenido de una página web mediante etiquetas HTML.
 - Haz un "fork" de este proyecto y clona el contenido desde tu repositorio.
 
 ### Iteración 2: Etiquetas de `<head>`
-- Dentro del fichero `index.html`, busca las etiquetas correctas para introducir el siguiente contenido:
+- Utiliza las etiquetas correctas para introducir en el fichero `index.html`, el siguiente contenido:
    - Idioma de la página: inglés
    - Caracteres utf-8 (Busca cual es el significado de estas siglas)
    - Título de la página que aparece en la pestaña del navegador: Urban Toast
