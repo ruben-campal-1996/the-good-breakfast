@@ -1,2 +1,91 @@
-
 <!-- Your content goes here ↓↓↓ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <!--UTF 8 es el sistema de codificación de caracteres más utilizado en la web. Representa cualquier símbolo o 
+    letra de casi cualquier idioma utilizando de 1 a 4 bytes de longitud variable  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Toast</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <nav class="Menu">
+    <a href="#">HOME</a>
+    <a href="#">ABOUT US</a>
+    <a href="#">DAILY OFFER</a>
+    <a href="mailto:contact@tastytoast.com?subject=Contact Tasty Toast">CONTACT US</a>
+    </nav> 
+
+    <p>Come and get your meal with friends between: 
+    <time datetime="12:00">12:00am to</time>
+    <time datetime="21:00">21:00pm</time>
+    </p>
+    
+    <h1>The good breakfast</h1>
+
+    <p>Here you will find all sorts of delicious treats</p>
+
+    <img src="https://i.postimg.cc/htxcJGB6/ZKkCecn.jpg" alt="powered by biscuit" width="500">
+
+    <footer>From the overn with love</footer>  <br>
+    
+    <p>Our commitment is to use impeccable sourcing and <strong>quality ingredients</strong> to help you code. 
+        An ongoing collaboration between the classroom staff and the development team allow us 
+        to iterate our content and give our students the coding 'fruits and vegetables' -mainly made of JavaScript- 
+        that they need to grow as a healthy developer.
+    </p>
+    <q>Good code & good coffee, everyday</q>
+    
+    <table border="1"> <!-- Añade bordes a la tabla -->
+        <caption> <h3>Menu</h3> </caption>
+        <tr>
+            <th> Cafés</th>
+            <th>Tés</th>
+        </tr>
+        
+        <tr>
+            <td>Café Latte</td>
+            <td>Earl Grey</td>
+        </tr>
+
+        <tr>
+            <td>American</td>
+            <td>Green Tea</td>
+        </tr>
+
+        <tr>
+            <td>Machiatto</td>
+            <td>Rooibos</td>
+        </tr>
+
+        <tr>
+            <td>Capuccino</td>
+            <td></td>
+        </tr>
+    </table>
+    
+    <h2>Reservas Aquí</h2>
+    <form action="#" method = "post" onsubmit="alert('¡Gracias por tu reserva!'); return false;"> <!-- action = donde nos deriva, method = envio de datos, onsubmit = Lo que se va a ejecutar al ejecutar button type "submit", alert= Mensaje emergente, return false = Niega el pase action, no envia los datos del formulario -->
+       
+        <strong>Nombre</strong> <br> 
+        <input type="text"> <br>    <!-- Campo Nombre -->
+        <strong>Snack</strong> <br>
+        <select name="Selecciona un snack"> <!-- Formulario Comida -->
+            <option value="Snack">Snack</option>
+            <option value="Breakfast">Breakfast</option>
+        </select>
+        <br>
+        <strong>Personas</strong> <br> 
+        <select name="Número de personas"> <!-- Formulario Cantidad de Personas -->
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    
+ </html>
