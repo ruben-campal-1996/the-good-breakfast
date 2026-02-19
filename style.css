@@ -6,6 +6,10 @@ body {
     background-position: center;
 }
 
+.img-food{
+    width: 500px;
+}
+
 nav{
     display: flex; /* Investigar mas acerca de esto */
     justify-content: center;
@@ -51,7 +55,7 @@ footer{
 table{
     border-collapse: collapse;
     margin: 0 auto;
-    width: 0 auto;
+    width: auto;
     table-layout: auto;
     
 }
@@ -64,10 +68,7 @@ th, td{
     
 }
 
-td:empty{
-    border: none;
-    
-}
+
 
 q{
     display: block;
