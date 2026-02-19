@@ -6,6 +6,17 @@ body {
     background-position: center;
 }
 
+
+video, iframe {
+    width: 500px;    /* Pero no crece más de esto */
+    height: auto;          /* Mantiene la proporción */
+    aspect-ratio: 16 / 9;
+    border-radius: 12px;   /* Para que combine con tus bordes redondeados */
+    border: 2px solid #333;
+    display: block;
+    margin: 15px auto;
+}
+
 .img-food{
     width: 500px;
 }
@@ -67,7 +78,6 @@ th, td{
     font-size: 22px;
     
 }
-
 
 
 q{
