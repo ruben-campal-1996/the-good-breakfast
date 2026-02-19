@@ -8,9 +8,9 @@ body {
 
 
 video, iframe {
-    width: 500px;    /* Pero no crece más de esto */
-    height: auto;          /* Mantiene la proporción */
-    aspect-ratio: 16 / 9;
+    width: 500px;    
+    height: auto;   /* Investigar por que es importante que el css calcule la altura */
+    aspect-ratio: 16 / 9; /* Ajuste de ratio para ver el video sin bandas negras o anomalías */
     border-radius: 12px;   /* Para que combine con tus bordes redondeados */
     border: 2px solid #333;
     display: block;
